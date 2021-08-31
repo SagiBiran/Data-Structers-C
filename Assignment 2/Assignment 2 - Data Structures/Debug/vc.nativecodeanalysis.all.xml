@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\sagib\source\repos\Assignment 2 - Data Structures\Assignment 2 - Data Structures\</FILEPATH>
+      <FILENAME>BinaryTree.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'p'. </DESCRIPTION>
+    <FUNCTION>NewNode</FUNCTION>
+    <DECORATED>?NewNode@@YAPAUNode@@H@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\sagib\source\repos\Assignment 2 - Data Structures\Assignment 2 - Data Structures\</FILEPATH>
+        <FILENAME>BinaryTree.cpp</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'p' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\sagib\source\repos\Assignment 2 - Data Structures\Assignment 2 - Data Structures\</FILEPATH>
+        <FILENAME>BinaryTree.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'p' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
